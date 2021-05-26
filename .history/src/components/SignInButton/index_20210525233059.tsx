@@ -11,7 +11,6 @@ export function SignInButton() {
     <button
      type="button"
      className={styles.signInButton}
-     onClick={() => signOut()}
     >
       <FaGithub color="#04d361" />
      {session.user.name}
